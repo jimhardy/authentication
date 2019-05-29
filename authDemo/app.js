@@ -7,10 +7,10 @@ const express = require("express"),
   passportLocalMongoose = require("passport-local-mongoose"),
   User = require("./models/user");
   
-  // set local env
-  require("dotenv").config();
-
-// APP CONFIG
+  
+  
+  // APP CONFIG
+require("dotenv").config(); // set local env
 const app = express();
 app.set("view engine", "ejs");
 // required for passport
